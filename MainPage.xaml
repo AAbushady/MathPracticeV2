@@ -9,6 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <TextBlock x:Name="titleBlock" HorizontalAlignment="Left" Margin="792,50,0,0" Text="Math Practice" TextWrapping="Wrap" VerticalAlignment="Top" Height="51" Width="370" TextAlignment="Center" FontSize="36" SelectionChanged="TitleBlock_SelectionChanged" FontWeight="Bold"/>
 
     </Grid>
 </Page>
